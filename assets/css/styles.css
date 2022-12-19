@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'roboto', sans-serif;
+}
+
+.actives {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid  #E8EBE4;
+    padding: 10px 10px 10px 30px;
+    border-right: solid 1px #e5e5e5;
+}
+    
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 100px;
+    border-bottom: solid 2px #E8EBE4;
+    padding: 15px 10px 15px 10px;
+    border-right: solid 1px #e5e5e5;
+}
+
+
+.button h3 {
+    background-color: #a491d3;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+}
+
+.button h3:hover{
+
+    background-color: #cdc3e6;
+  
+    
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    justify-content: left;
+    min-width: fit-content;    
+    
+}
+.inactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+    border-bottom: solid 2px  #E8EBE4;
+    border-right: solid 1px #e5e5e5;
+}
+
+.iconos {
+    color: grey;
+}
+
+.icons i {
+    margin: 5px
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e8ebee;
+    width: 76%;
+    
+    
+}
+
+.principal img {
+    width: 20%
+    
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foto img {
+    flex-grow: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+.status {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 10%;
+    margin-right: 50px;
+    padding-left: 10px ;
+    
+
+}
+
+.status h4 {
+    margin-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    flex-grow: 0;
+    margin: 4px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 50%;
+    line-height: 33%;
+
+}
+
+.text p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.user {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+
